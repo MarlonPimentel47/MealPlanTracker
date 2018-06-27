@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            
+            <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="C:\Users\Marlon Pimentel\Documents\MealPlanTracker\mealPlanStyling.css">
+            
+            <title>Meal Plan Tracker</title>
+
+        </head>
+        
+        <header>
+            
+            <h1>Meal Plan Tracker</h1>
+            <h2 id ="creator">By Marlon Pimentel</h2>
+            <p><span id ="firstLine">Don't know if your meal plan will last?</span><br>Enter how much money your Meal Plan currently has and how much you typically spend every day. We will do the rest of the work.</p>
+
+        </header>
+        
+        <body>
+            
+            <div id="forms">
+            <fieldset>
+                <legend><span class="num">1) </span>Your Information</legend>
+                <label for="mealPlan">Amount left:</label>
+                <input type="text" id="mealPlan" name="mealPlan" placeholder="Enter number" required>
+
+                <label for="average">Avg Amount Spent:</label>    
+                <input type="text" id="average" name="averageMoneySpent" required>
+            </fieldset>
+            <button id="gone">Click to Submit</button>
+            </div>
+            <div id="output">
+            <h2 id="Results"></h2>
+            </div>
+            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+                
+            <script type="text/javascript" src="C:\Users\Marlon Pimentel\Documents\MealPlanTracker\mealPlanJS.js"></script>
+            
+        </body>
+        
+</html>
