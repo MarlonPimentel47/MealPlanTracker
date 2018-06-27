@@ -1,0 +1,184 @@
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #558C89;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+    text-align: left;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+}
+
+h1{
+    font-family: "Lato";
+    font-size: 60px;
+}
+
+h2{
+    margin-top: -40px;
+    font-family: "Raleway";
+    font-weight: lighter;
+}
+
+body{
+    max-width: 700px;
+    margin: 0 auto;
+    color: white;
+    background-color: #74AFAD;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+#forms{
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 20px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+#bio{
+    max-width: 360px;
+    max-height: 200px;
+}
+
+label{
+    color: ghostwhite;
+    display: block;
+    margin-bottom: 8px;
+    float: left;
+}
+
+textarea{
+    font-family: inherit;
+}
+
+fieldset {
+    margin-bottom: 0px;
+    border: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+legend {
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+option, select{
+    color: #0a97a0;
+}
+
+select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+.fix{
+    font-weight: 300;
+    display: inline;
+}
+
+header{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#creator:hover{
+    color: black;
+}
+
+#firstLine{
+    font-size: 19px;
+}
+
+hr {
+    display: inline-block;
+    width: 40%;
+}
+
+#output{
+    margin-top: 55px;
+}
+
+@media(max-width: 800px){
+    h2{
+        margin-top: -20px;
+        font-size: 20px;
+    }
+    h1{
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    #text{
+        padding: 0px 50px 50px 50px;
+    }
+    header{
+        padding: 18px;
+        margin-bottom: -30px;
+    }
+    #forms{
+        margin: 20px;
+        padding: 20px;
+    }
+    #output{
+        padding: 20px;
+        margin-top: 30px;
+    }
+}
